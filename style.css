@@ -644,3 +644,59 @@ footer p{
     margin:0 auto 18px;
   }
 }
+/* AJUSTES PARA APROXIMAR DO MODELO */
+
+/* Remove o grande cabecalho da area de atuacao */
+#areas .section-head{
+  display:none;
+}
+
+/* Transforma as areas em faixa compacta */
+#areas{
+  padding:0;
+  background:#111415;
+}
+
+#areas .cards{
+  max-width:none;
+  width:100%;
+  grid-template-columns:repeat(3,1fr);
+}
+
+#areas .cards article{
+  min-height:210px;
+  padding:32px 5%;
+}
+
+/* Deixa o topo mais compacto */
+.hero-grid{
+  min-height:500px;
+}
+
+.portrait{
+  height:500px;
+}
+
+.portrait>img{
+  height:500px;
+}
+
+/* CELULAR */
+@media(max-width:750px){
+
+  #areas .cards{
+    grid-template-columns:1fr;
+  }
+
+  .hero-grid{
+    min-height:0;
+  }
+
+  .portrait{
+    height:auto;
+  }
+
+  .portrait>img{
+    height:auto;
+  }
+}
