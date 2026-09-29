@@ -737,3 +737,19 @@ footer p{
     width: 100%;
   }
 }
+/* ESCUDO DOURADO - ATENDIMENTO PERSONALIZADO */
+.icone-escudo::before {
+  content: "✓";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 34px;
+  margin-right: 16px;
+  color: #c98b32;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #c98b32;
+  border-radius: 12px 12px 16px 16px;
+  box-sizing: border-box;
+}
