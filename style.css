@@ -737,3 +737,65 @@ footer p{
     width: 100%;
   }
 }
+/* ÍCONES DOURADOS - SOBRE O ESCRITÓRIO */
+
+.lista-diferenciais {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-diferenciais li {
+  position: relative;
+  min-height: 54px;
+  padding-left: 58px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.lista-diferenciais li::before {
+  position: absolute;
+  left: 0;
+  width: 42px;
+  text-align: center;
+  color: #c98b32;
+  font-size: 32px;
+  line-height: 1;
+}
+
+/* Escudo */
+.lista-diferenciais .icone-escudo::before {
+  content: "";
+  width: 32px;
+  height: 38px;
+  background-color: #c98b32;
+  clip-path: polygon(
+    50% 0%,
+    90% 14%,
+    86% 58%,
+    72% 78%,
+    50% 100%,
+    28% 78%,
+    14% 58%,
+    10% 14%
+  );
+}
+
+/* Balança da Justiça */
+.lista-diferenciais .icone-balanca::before {
+  content: "⚖";
+  font-size: 34px;
+}
+
+/* Aperto de mãos */
+.lista-diferenciais .icone-maos::before {
+  content: "🤝";
+  font-size: 29px;
+}
+
+/* Localização / atuação regional */
+.lista-diferenciais .icone-mapa::before {
+  content: "◆";
+  font-size: 30px;
+}
