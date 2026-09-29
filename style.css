@@ -705,3 +705,35 @@ footer p{
     height:auto;
   }
 }
+/* BLOCO DO AUTOR NOS ARTIGOS */
+.autor-artigo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 55px;
+  padding: 30px;
+  background: #111827;
+  color: white;
+}
+
+.autor-artigo img {
+  width: 190px;
+  max-width: 40%;
+}
+
+.autor-artigo h3 {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+  .autor-artigo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .autor-artigo img {
+    max-width: 220px;
+    width: 100%;
+  }
+}
