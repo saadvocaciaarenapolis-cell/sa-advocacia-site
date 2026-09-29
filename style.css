@@ -301,7 +301,12 @@ img{
   align-self:center;
   border-left:1px solid #ddd1bd;
 }
-
+.about .btn{
+  display:inline-block;
+  padding:12px 20px;
+  font-size:14px;
+  width:auto;
+}
 .about li{
   margin:0 0 30px;
   padding-left:22px;
