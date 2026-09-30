@@ -486,17 +486,16 @@ footer p{
   }
 
   .about{
-    grid-template-columns:40% 60%;
-  }
+    grid-template-columns:38% 42% 20%;
+}
 
-  .about ul{
-    grid-column:1/-1;
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    border-left:0;
-    border-top:1px solid #ddd1bd;
-    padding:30px 7%;
-  }
+.about ul{
+    grid-column:auto;
+    border-left:1px solid #ddd1bd;
+    border-top:0;
+    display:block;
+    padding:55px 30px;
+}
 
   .content{
     grid-template-columns:1fr;
